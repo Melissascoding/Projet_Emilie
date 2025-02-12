@@ -130,9 +130,12 @@ table {
 }
 
 :root {
-    --titre: blue;
-    --paragraphe: rgb(84, 79, 79);
-    --bouton: white;
+    --titre1: white;
+    --paragraphe1: rgb(84, 79, 79);
+    --color1: #245654;
+    --color2: #BB252F;
+    --color3: white;
+
 }
 
 /* for accessibility*/
@@ -142,7 +145,7 @@ table {
 
 a,
 a:hover {
-    /*color: inherit !important;*/
+    color: inherit !important;
     text-decoration: none;
 }
 

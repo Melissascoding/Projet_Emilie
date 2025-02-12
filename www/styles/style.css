@@ -6,10 +6,21 @@
     font-family: "Open-Sans", arial;
 }
 
-.navbar-top,
-.list-top,
-.navbar-bottom,
-nav,
+/***************************************** GENERAL ********************************************************************/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-body {
+    height: 1000px;
+    margin: 10px;
+    /*overflow: hidden;*/
+}
+
 .cards {
     display: flex;
     align-items: center;
@@ -28,9 +39,43 @@ nav,
     gap: 50px;
 }
 
-nav {
-    gap: 10px;
+/***************************************** SLOGAN ********************************************************************/
+
+#slogan {
+    display: flex;
+    flex-direction: row;
+    height: 463px;
+    margin: 10px;
+    overflow: hidden;
 }
+
+.slogan-image {
+    width: 900px;
+    height: 600px;
+}
+
+.slogan-image img {
+    width: 100%;
+    /* or any custom size */
+    height: 100%;
+    object-fit: contain;
+}
+
+.slogan-texte {
+    background-color: var(--color1);
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color3);
+}
+
+.slogan-texte p {}
+
+
+/***************************************** SELECTION DES PRODUITS ********************************************************************/
 
 .supprimer-filtre {
     background-color: #BB252F;
@@ -58,6 +103,7 @@ nav {
     touch-action: manipulation;
 }
 
+
 /*
 .button-1:hover,
 .button-1:focus {
@@ -67,5 +113,4 @@ nav {
 .card {
     border: solid #3D6187;
     border-radius: 5px;
-    color
 }

@@ -1,0 +1,115 @@
+header {
+    height: 256px;
+    width: 100%;
+    margin: 20px;
+    /* overflow: hidden;*/
+}
+
+.navbar-top,
+.liste-gauche,
+.liste-droite {
+    display: flex;
+    flex-direction: row;
+}
+
+.liste-gauche {
+    gap: 20px;
+}
+
+.liste-droite {
+    gap: 20px;
+}
+
+.navbar-top,
+.list-top,
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*
+.navbar-bottom .navbar-btn {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0 0 26px 400px;
+    border: none;
+}*/
+
+
+
+nav {
+    gap: 10px;
+}
+
+
+.catalogue-btn {
+    background-color: #245654;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+/*
+.button-1:hover,
+.button-1:focus {
+    background-color: #F082AC;
+}*/
+
+.search-btn input {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0 0 26px 400px;
+    border: none;
+}
+
+ul {
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 0px 55px;
+    border: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: var(--color1);
+    text-align: center;
+    padding: 8px 32px;
+}
+
+/* Change the link color to #111 (black) on hover
+li a:hover {
+    background-color: #11111122;
+}*/
