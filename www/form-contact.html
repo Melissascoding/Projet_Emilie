@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -78,68 +77,45 @@
     </header>
 
     <main>
-
-        <section id="produit-photos">
-            <div class="produit-photo">
-                <div class="big-photo"></div>
-                <div class="small-photo"></div>
-                <div class="btn-photo">
-                    <button>Télécharger le manuel</button>
-                </div>
-            </div>
-            <div class="produit-texte">
-                <div class="statut-produit">
-                    <!-- En stock/indisponible -->
-                </div>
-                <div class="nom-produit"></div>
-                <div class="pres-produit">
-                    <p><!-- Ajouter la présentation du produit -->
-                        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
-                        impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,
-                        quand un
-                        imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de
-                        polices de
-                        texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique
-                        informatique,
-                        sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la
-                        vente de
-                        feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion
-                        dans des
-                        applications de mise en page de texte, comme Aldus PageMaker.</p>
-                </div>
-            </div>
+        <section id="titre-contact">
+            <h1>Formulaire de contact</h1>
         </section>
 
-        <section id="produit-description">
-            <h3>Description </h3>
-            <hr>
-            <p><!-- Ajouter la description-->
-                Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
-                impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un
-                imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de
-                texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique,
-                sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de
-                feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des
-                applications de mise en page de texte, comme Aldus PageMaker.
-            </p>
+        <section id="form-contact">
+            <form action="" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
 
-            <h3>Caractéristiques techniques</h3>
-            <hr>
-            <p><!-- Ajouter les caractéristiques techniques-->
-                Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
-                impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un
-                imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de
-                texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique,
-                sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de
-                feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des
-                applications de mise en page de texte, comme Aldus PageMaker.
-            </p>
-        </section>
-        <section id="produit-rec">
-            <h3>Produits similaires</h3>
+                <label for="name">Prénom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="name">Numéro de téléphone :</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+
+                <label for="adresse">Adresse :</label>
+                <input type="" id="adresse" name="adresse">
+
+                <label for="code-postal">Code postal :</label>
+                <input type="code-postal" id="code-postal" name="code-postal">
+
+                <label for="ville">Ville :</label>
+                <input type="ville" id="ville" name="ville">
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="checkbox" id="scales" name="scales" required />
+                <label for="scales">J'accepte la <a href="#">Charte de Protections des données.</a>*</label>
+
+                <button type="submit">Envoyer le formulaire</button>
+            </form>
         </section>
 
     </main>
+
 
     <footer>
         <div class="footer-top">
@@ -149,7 +125,6 @@
             </div>
             <div class="footer-links">
                 <p><a href="FAQ.html">Foire aux questions</a></p>
-                <p><a href="form-contact.html">Formulaire de contact</a></p>
                 <p><a href="#">Livraison</a></p>
                 <p><a href="#">Règlement pour les locations</a></p>
                 <p><a href="#">Charte de protection des données</a></p>
@@ -167,5 +142,6 @@
     </footer>
 
 </body>
+
 
 </html>

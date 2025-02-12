@@ -5,40 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Emilie</title>
-    <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header>
+    <header flex-col>
 
-        <div class="navbar-top">
-            <a href="index.html" class="header-logo"><img src="" alt="logo"></a>
+        <div class="navbar-top" flex-row>
+            <a href="index.html" class="header-logo"><img src="images/Emilie_logo(1).jpg" alt="logo" width="200px"></a>
 
             <div class="list-top">
-                <div class="catalogue-btn"></div>
-                <div class="search-btn"></div>
-                <div class="panier-btn"></div>
-                <div class="contact-btn"></div>
-                <div class="client-btn"></div>
+                <div class="catalogue-btn"><a href="#" class="catalogue-btn"><img src="" alt="catalogue"
+                            width="200px"></a> <!-- Génerer le E-catalogue -->
+                </div>
+                <div class="search-btn"><input type="text" placeholder=""></div>
+                <div class="panier-btn"><a href="#" class=""><img src="icons/basket-shopping-solid.svg" alt="logo"
+                            width="50px"></div>
+                <div class="contact-btn"><a href="#" class=""><img src="icons/phone-solid.svg" alt="logo" width="50px">
+                </div>
+                <div class="client-btn"><a href="#" class=""><img src="icons/user-solid.svg" alt="logo" width="50px">
+                </div>
             </div>
         </div>
 
         <div class="navbar-bottom">
             <nav>
                 <ul>
-                    <li><a href="#">Matériel particulier</a></li>
+                    <li><a href="#" class="navbar-btn">Matériel particulier</a></li>
                 </ul>
                 <ul>
-                    <li><a href="professionnel.html">Matériel professionnel</a></li>
+                    <li><a href="professionnel.html" class="navbar-btn">Matériel professionnel</a></li>
                 </ul>
                 <ul>
-                    <li><a href="location.html">Location</a></li>
+                    <li><a href="location.html" class="navbar-btn">Location</a></li>
                 </ul>
                 <ul>
-                    <li><a href="manuel.html">Manuels d'utilisation</a></li>
+                    <li><a href="manuel.html" class="navbar-btn">Manuels d'utilisation</a></li>
                 </ul>
             </nav>
         </div>
@@ -73,44 +79,66 @@
 
     <main>
         <section id="slogan">
-            <div class="slogan-image"></div>
+            <div class="slogan-image"><!-- Insérer l'image CSS--></div>
             <div class="slogan-texte">
-                <h2>La solution à vos problèmes de santé</h2>
+                <h1>La solution à vos problèmes de santé</h1>
             </div>
         </section>
 
         <section id="best">
             <div class="best-titre">
-                <h3>Produits phares</h3>
+                <h2>Produits phares</h2>
             </div>
             <div class="best-produits">
             </div>
         </section>
 
         <section id="services">
-            <div class="carrousel"></div>
+            <div class="services-titre">
+                <h2>Nos services</h2>
+            </div>
+            <div class="carrousel"> <!--Insérer le carrousel--> </div>
         </section>
 
         <section id="qualite">
-            <div class="qualite-texte"></div>
-            <div class="qualite-icons"></div>
+            <div class="qualite-texte">
+                <h2>Pourquoi Emilie ?</h2>
+                <p>La qualité de notre service de matériel médical repose sur la fiabilité de nos produits, la
+                    disponibilité rapide et un
+                    excellent service après-vente. Nous incluons également de la documation et l'accompagnement des
+                    utilisateurs
+                    pour garantir une utilisation optimale et sécurisée des équipements.</p>
+            </div>
+            <div class="qualite-icons">
+                <img src="images/Emilie_quality.jpg" alt="" width="200px">
+                <img src="images/Emilie_livraison.jpg" alt="" width="200px">
+                <img src="images/Emilie_feedback.jpg" alt="" width="200px">
+            </div>
         </section>
 
-        <section id="carte"></section>
+        <section id="carte">
+            <h3>Nos partenaires</h3>
+        </section>
     </main>
 
     <footer>
         <div class="footer-top">
             <div class="footer-logo">
-                <div class="footer-links">
-                    <p><a href="FAQ.html">Foire aux questions</a></p>
-                    <p><a href="#">Livraison</a></p>
-                    <p><a href="#">Règlement pour les locations</a></p>
-                    <p><a href="#">Charte de protection des données</a></p>
-                    <p><a href="#">Catalogue virtuel</a></p>
-                </div>
+                <a href="index.html" class="footer-logo"><img src="images/Emilie_logo(2).jpg" alt="logo"
+                        width="200px"></a>
             </div>
-            <div class="footer-contact"></div>
+            <div class="footer-links">
+                <p><a href="FAQ-two.html">Foire aux questions</a></p>
+                <p><a href="form-contact.html">Formulaire de contact</a></p>
+                <p><a href="#">Livraison</a></p>
+                <p><a href="#">Règlement pour les locations</a></p>
+                <p><a href="#">Charte de protection des données</a></p>
+                <p><a href="#">Catalogue virtuel</a></p>
+
+            </div>
+            <div class="footer-contact">
+                <p>150 Boulevard Maurice<br> Violette 28000 Chartres<br> 0123456789<br> www.emilie.fr</p>
+            </div>
         </div>
 
         <div class="footer-bottom">

@@ -5,37 +5,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Emilie</title>
-    <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
-    <form action="" method="post">
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="name" required>
+    <header flex-col>
 
-        <label for="name">Prénom :</label>
-        <input type="text" id="name" name="name" required>
+        <div class="navbar-top" flex-row>
+            <a href="index.html" class="header-logo"><img src="images/Emilie_logo(1).jpg" alt="logo" width="200px"></a>
 
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" required>
+            <div class="list-top">
+                <div class="catalogue-btn"><a href="#" class="catalogue-btn"><img src="" alt="catalogue"
+                            width="200px"></a> <!-- Génerer le E-catalogue -->
+                </div>
+                <div class="search-btn"><input type="text" placeholder=""></div>
+                <div class="panier-btn"><a href="#" class=""><img src="icons/basket-shopping-solid.svg" alt="logo"
+                            width="50px"></div>
+                <div class="contact-btn"><a href="#" class=""><img src="icons/phone-solid.svg" alt="logo" width="50px">
+                </div>
+                <div class="client-btn"><a href="#" class=""><img src="icons/user-solid.svg" alt="logo" width="50px">
+                </div>
+            </div>
+        </div>
 
-        <label for="adresse">Adresse :</label>
-        <input type="" id="adresse" name="adresse">
+        <div class="navbar-bottom">
+            <nav>
+                <ul>
+                    <li><a href="#" class="navbar-btn">Matériel particulier</a></li>
+                </ul>
+                <ul>
+                    <li><a href="professionnel.html" class="navbar-btn">Matériel professionnel</a></li>
+                </ul>
+                <ul>
+                    <li><a href="location.html" class="navbar-btn">Location</a></li>
+                </ul>
+                <ul>
+                    <li><a href="manuel.html" class="navbar-btn">Manuels d'utilisation</a></li>
+                </ul>
+            </nav>
+        </div>
 
-        <label for="code-postal">Code postal :</label>
-        <input type="code-postal" id="code-postal" name="code-postal">
+        <!--
+                <div class="logo-nav">
+            <a href="#" class="header-logo"><img src="" alt="logo"></a>
 
-        <label for="ville">Ville :</label>
-        <input type="ville" id="ville" name="ville">
+            <div class="responsive-btn">
+                <div class="burger-menu" onclick="toggleMenu()"></div>
+            </div>
 
-        <label for="message">Message :</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+            <nav>
+                <ul>
+                    <li><a href="#">Matériel particulier</a></li>
+                </ul>
+                <ul>
+                    <li><a href="professionnel.html">Matériel professionnel</a></li>
+                </ul>
+                <ul>
+                    <li><a href="location.html">Location</a></li>
+                </ul>
+                <ul>
+                    <li><a href="manuel.html">Manuels d'utilisation</a></li>
+                </ul>
+            </nav>
+        </div>
+        -->
 
-        <button type="submit">Envoyer le formulaire</button>
-    </form>
+
+    </header>
+
+    <main>
+        <section id="titre-particulier">
+            <h1>Location pour les particulier</h1>
+        </section>
+
+        <section id="form-particulier">
+            <form action="" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="name">Prénom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="adresse">Adresse :</label>
+                <input type="" id="adresse" name="adresse">
+
+                <label for="code-postal">Code postal :</label>
+                <input type="code-postal" id="code-postal" name="code-postal">
+
+                <label for="ville">Ville :</label>
+                <input type="ville" id="ville" name="ville">
+
+                <label for="choix">
+                    Sélectionnez le(s) produit(s) :
+                </label>
+                <select id="choix" name="choix">
+                    <option value="option1">
+                        Option 1
+                    </option>
+                    <option value="option2">
+                        Option 2
+                    </option>
+                </select>
+
+                <input type="checkbox" id="scales" name="scales" required />
+                <label for="scales">J'accepte la <a href="#">Charte de Protections des données.</a>*</label>
+                <input type="checkbox" id="scales" name="scales" required />
+                <label for="scales">J'accepte le <a href="#">Règlement des locations pour les particuliers.</a>*</label>
+
+                <button type="submit">Envoyer le formulaire</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-logo">
+                <a href="index.html" class="footer-logo"><img src="images/Emilie_logo(2).jpg" alt="logo"
+                        width="200px"></a>
+            </div>
+            <div class="footer-links">
+                <p><a href="FAQ.html">Foire aux questions</a></p>
+                <p><a href="form-contact.html">Formulaire de contact</a></p>
+                <p><a href="#">Livraison</a></p>
+                <p><a href="#">Règlement pour les locations</a></p>
+                <p><a href="#">Charte de protection des données</a></p>
+                <p><a href="#">Catalogue virtuel</a></p>
+
+            </div>
+            <div class="footer-contact">
+                <p>150 Boulevard Maurice<br> Violette 28000 Chartres<br> 0123456789<br> www.emilie.fr</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright Emilie © 2025</p>
+        </div>
+    </footer>
 </body>
 
 </html>
