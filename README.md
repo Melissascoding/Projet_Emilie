@@ -18,7 +18,7 @@ Bien que le projet ne soit pas finalisé, une avancée significative a été ré
 - **Outils** : Figma, Canva, draw.io, GitHub, Google Sheets, Discord
 
 ## Aperçu
-![Maquette Figma](https://github.com/Melissascoding/Projet_Emilie/blob/main/www/maquette/index.html?raw=true)   
+![Maquette Figma](https://github.com/Melissascoding/Projet_Emilie/blob/main/www/maquette/Emilie_Maquette%20(desktop).png)   
 
 ## Installation
 ```bash
